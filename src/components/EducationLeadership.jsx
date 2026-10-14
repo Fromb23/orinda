@@ -8,7 +8,7 @@ export default function EducationLeadership() {
         <SectionHeading
           eyebrow="Education & leadership"
           title="Academic foundation and service"
-          description="Current university study is clearly distinguished from completed school qualifications and documented leadership."
+          description="Completed teacher education, school qualifications and documented student leadership."
         />
         <div className="education__layout">
           <div className="education-list">
@@ -17,11 +17,11 @@ export default function EducationLeadership() {
               <article className="education-item" key={item.institution}>
                 <span className="education-item__index">{String(index + 1).padStart(2, "0")}</span>
                 <div>
-                  <p className="education-item__date">{item.dates}</p>
+                  {item.dates && <p className="education-item__date">{item.dates}</p>}
                   <h4>{item.institution}</h4>
                   <p>{item.qualification}</p>
                 </div>
-                <span className={`status-label${item.status === "In progress" ? " status-label--active" : ""}`}>{item.status}</span>
+                <span className="status-label">{item.status}</span>
               </article>
             ))}
           </div>

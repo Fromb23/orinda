@@ -8,10 +8,10 @@ export default function About() {
         <SectionHeading eyebrow="About" title="A thoughtful approach to learning" />
         <div className="about__content">
           <p className="about__lead">
-            Mr. Orinda is preparing for a career in education through the Bachelor of Education Science programme at the University of Nairobi, where his studies have been in progress since September 2023.
+            Mr. Orinda is a trained Mathematics and Physics educator and a University of Nairobi graduate awaiting issuance of his degree certificate. His teaching experience began in 2022 and includes secondary-school teaching and individual tuition support.
           </p>
           <p>
-            His experience includes teaching Mathematics and Physics at Nyang’iela Secondary School and providing individual support through Cares Homebased Tuition. He brings a calm, organised and communicative approach to working with learners.
+            At Nyang’iela Secondary School, he taught Mathematics and Physics, while Cares Homebased Tuition allowed him to provide focused support to individual learners. He brings a calm, organised and communicative approach to his work.
           </p>
           <ul className="strength-list" aria-label="Professional strengths">
             {profile.strengths.map((strength, index) => (

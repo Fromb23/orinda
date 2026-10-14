@@ -20,7 +20,7 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: `${profile.publicName} | Mathematics and Physics Educator`,
   description:
-    "Professional teaching portfolio of Ogira Mark Orinda, a Mathematics and Physics educator and Bachelor of Education Science student.",
+    "Professional teaching portfolio of Ogira Mark Orinda, a Mathematics and Physics educator and University of Nairobi graduate.",
   openGraph: {
     title: `${profile.publicName} | Mathematics and Physics Educator`,
     description:

@@ -778,11 +778,6 @@ section[id] {
   white-space: nowrap;
 }
 
-.status-label--active {
-  background: rgba(75, 128, 98, 0.14);
-  color: #2f6749;
-}
-
 .leadership-panel {
   padding: 36px;
   background: var(--paper-deep);

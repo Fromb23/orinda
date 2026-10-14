@@ -6,10 +6,10 @@ export const profile = {
   phone: "0113152383",
   phoneHref: "tel:0113152383",
   postalAddress: "P.O. Box 487-40222, Oyugis",
-  locality: "Oyugis, Kenya",
+  locality: "Nairobi, Kenya",
   portrait: "/images/ogira-mark-orinda-portrait.png",
   summary:
-    "A Bachelor of Education Science student with experience teaching Mathematics and Physics and providing individual, home-based tuition support.",
+    "A trained Mathematics and Physics educator with teaching experience since 2022, including secondary-school teaching and individual tuition support.",
   strengths: [
     "Clear communication",
     "Organisation",
@@ -47,20 +47,19 @@ export const education = [
   {
     institution: "University of Nairobi",
     qualification: "Bachelor of Education Science",
-    dates: "September 2023–present",
-    status: "In progress",
+    status: "Graduate — degree certificate pending",
   },
   {
     institution: "Orero Boys’ Secondary School",
     qualification: "Kenya Certificate of Secondary Education",
     dates: "January 2018–April 2022",
-    status: "Mean grade A−",
+    status: "Completed",
   },
   {
     institution: "Nyang’iela Primary School",
     qualification: "Kenya Certificate of Primary Education",
     dates: "Completed November 2017",
-    status: "349/500 marks",
+    status: "Completed",
   },
 ];
 

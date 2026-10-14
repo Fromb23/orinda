@@ -45,7 +45,7 @@ export default function Hero() {
             <span className="status-dot" aria-hidden="true" />
             <span>
               <small>Based in</small>
-              Oyugis, Kenya
+              {profile.locality}
             </span>
           </div>
           <div className="hero__subject-note" aria-hidden="true">
